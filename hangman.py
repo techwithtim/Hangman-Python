@@ -97,8 +97,8 @@ def buttonHit(x, y):
 
 def end(winner=False):
     global limbs
-    lostTxt = 'You Lost, press any key to play again...'
-    winTxt = 'WINNER!, press any key to play again...'
+    lostTxt = 'Lose...'
+    winTxt = 'WIN!!!'
     redraw_game_window()
     pygame.time.delay(1000)
     win.fill(GREEN)
